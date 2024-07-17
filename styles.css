@@ -1,0 +1,114 @@
+/* Reset and General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #77c7f7;
+}
+
+/* Hero Section Styles */
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input[type=email]:focus {
+    border-color: #77c7f7;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
